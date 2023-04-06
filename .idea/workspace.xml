@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="172a0900-de39-46b0-9e61-9d1c05b7fcd4" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2O31fTWb6OfM9HmQdFCZxLtDCGI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "zulu-1.8",
+    "last_opened_file_path": "/Users/kilo.cn/Desktop/Code/Java/DreamDate/DreamDate-model/src/test/java/cn/kilo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "d848896d4b4ed96e7d56a4bd56e58b49",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DreamDate-model/src/test/java/cn/kilo" />
+      <recent name="$PROJECT_DIR$/DreamDate-dubbo/src/test/java/cn/kilo" />
+      <recent name="$PROJECT_DIR$/DreamDate-commons/src/test/java/cn/kilo" />
+      <recent name="$PROJECT_DIR$/DreamDate-model" />
+      <recent name="$PROJECT_DIR$/DreamDate-dubbo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.kilo.dreamdate_model" />
+      <recent name="cn.kilo.dreamdate_dubbo" />
+      <recent name="cn.kilo.dreamdate_commons" />
+      <recent name="cn.kilo.dreamdate_autoconfig" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DreamDateAppServerApplication">
+    <configuration name="DreamDateAppServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplication" />
+      <module name="DreamDate-app-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAppServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="DreamDate-app-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAutoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="DreamDate-autoconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kilo.dreamdate_autoconfig.DreamDateAutoConfigApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_autoconfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DreamDate-commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kilo.dreamdate_commons.DreamDateCommonsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateDubboApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DreamDate-dubbo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kilo.dreamdate_dubbo.DreamDateDubboApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DreamDate-model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kilo.dreamdate_model.DreamDateModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DreamDateAppServerApplication" />
+        <item itemvalue="应用程序.DreamDateAppServerApplication" />
+        <item itemvalue="Spring Boot.DreamDateAutoConfigApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="172a0900-de39-46b0-9e61-9d1c05b7fcd4" name="更改" comment="" />
+      <created>1680774554755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680774554755</updated>
+      <workItem from="1680774555795" duration="973000" />
+      <workItem from="1680775536965" duration="74000" />
+      <workItem from="1680775613588" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
