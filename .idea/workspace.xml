@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172a0900-de39-46b0-9e61-9d1c05b7fcd4" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/config/DreamDateAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/sms_verification/SmsTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/properties/SmsProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/sms_verification/SmsTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/sms_verification/SmsTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-commons/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-commons/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-model/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +74,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "spring.configuration.checksum": "d848896d4b4ed96e7d56a4bd56e58b49",
+    "settings.editor.selected.configurable": "spring.boot",
+    "spring.configuration.checksum": "049a22ba0536aac35c5d6eaa1b15ef55",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,6 +105,22 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.DreamDateAppServerApplicationTests.testSMS">
+    <configuration name="DreamDateAppServerApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dreamdate-autoconfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_autoconfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_autoconfig" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_autoconfig.DreamDateAppServerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DreamDateAppServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dreamdate-app-server" />
       <extension name="coverage">
@@ -168,19 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="dreamdate-commons" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="dreamdate-commons" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DreamDateAppServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dreamdate-app-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplication" />
@@ -240,7 +244,8 @@
       <workItem from="1680775536965" duration="74000" />
       <workItem from="1680775613588" duration="9000" />
       <workItem from="1680775639117" duration="884000" />
-      <workItem from="1680797781001" duration="1251000" />
+      <workItem from="1680797781001" duration="3209000" />
+      <workItem from="1680801005566" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="Project Initiation">
       <created>1680775971805</created>
@@ -256,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680798133591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement function of SMS Validation.">
+      <created>1680799158992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680799158992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +277,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Initiation" />
     <MESSAGE value="Reload and Rename project structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reload and Rename project structure." />
+    <MESSAGE value="Implement function of SMS Validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement function of SMS Validation." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

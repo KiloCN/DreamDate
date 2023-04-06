@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: dreamdate-app-server
+dreamdate:
+  sms:
+    signName: DreamDate
+    region_id: cn-hangzhou
+    template_code: SMS_11759122239
+    access_key_id: BDAI4GKgdt9vZ53k3GZdtAD7
+    access_key_secret: GYGBvXmILRoyw0niRSBuXBYeWQ30X0

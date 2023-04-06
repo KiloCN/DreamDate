@@ -1,4 +1,5 @@
 package cn.kilo.dreamdate_autoconfig.sms_verification;
+import cn.kilo.dreamdate_autoconfig.properties.SmsProperties;
 import com.aliyuncs.CommonRequest;
 import com.aliyuncs.CommonResponse;
 import com.aliyuncs.DefaultAcsClient;
@@ -26,6 +27,12 @@ import java.util.Map;
 
 @Slf4j
 public class SmsTemplate {
+
+    private SmsProperties properties;
+
+    public SmsTemplate(SmsProperties properties) {
+        this.properties = properties;
+    }
 
     // 设置公共请求参数，初始化Client。
     private DefaultProfile profile = DefaultProfile.getProfile(
@@ -120,6 +127,7 @@ public class SmsTemplate {
          * My Alibaba Could SMS verification balance has been exhausted. First simulate the SMS verification process.
          */
 
+        log.info(properties.toString());
         log.info("<Phone Number>:<"+phoneNumber+"> -- The verification code is: "+code+", valid within 5 minutes!");
 
 //        SmsTemplate sendSmsDemo = new SmsTemplate();
