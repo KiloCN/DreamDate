@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/DreamDate-app-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DreamDate-autoconfig/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DreamDate-commons/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DreamDate-dubbo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DreamDate-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-app-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-autoconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

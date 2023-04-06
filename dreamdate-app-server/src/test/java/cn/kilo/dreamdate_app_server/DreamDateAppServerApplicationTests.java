@@ -1,13 +1,14 @@
-package cn.kilo.spring_cloud_demo_001;
+package cn.kilo.dreamdate_app_server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = DreamDateAppServerApplication.class)
 class DreamDateAppServerApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("Hello");
     }
 
 }

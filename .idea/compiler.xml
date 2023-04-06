@@ -7,22 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DreamDate-app-server" />
-        <module name="DreamDate-model" />
-        <module name="DreamDate-commons" />
-        <module name="DreamDate-autoconfig" />
-        <module name="DreamDate-dubbo" />
+        <module name="dreamdate-model" />
+        <module name="dreamdate-dubbo" />
+        <module name="dreamdate-app-server" />
+        <module name="dreamdate-commons" />
+        <module name="dreamdate-autoconfig" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="DreamDate" options="-parameters" />
-      <module name="DreamDate-app-server" options="-parameters" />
-      <module name="DreamDate-autoconfig" options="-parameters" />
-      <module name="DreamDate-commons" options="-parameters" />
-      <module name="DreamDate-dubbo" options="-parameters" />
-      <module name="DreamDate-model" options="-parameters" />
+      <module name="dreamdate" options="-parameters" />
+      <module name="dreamdate-app-server" options="-parameters" />
+      <module name="dreamdate-autoconfig" options="-parameters" />
+      <module name="dreamdate-commons" options="-parameters" />
+      <module name="dreamdate-dubbo" options="-parameters" />
+      <module name="dreamdate-model" options="-parameters" />
     </option>
   </component>
 </project>

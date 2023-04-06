@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.kilo</groupId>
-    <artifactId>DreamDate</artifactId>
+    <artifactId>dreamdate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>DreamDate</name>

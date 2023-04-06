@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.kilo</groupId>
-        <artifactId>DreamDate</artifactId>
+        <artifactId>dreamdate</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>DreamDate-model</artifactId>
+    <artifactId>dreamdate-dubbo</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
