@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.kilo.dreamdate_autoconfig.config.DreamDateAutoConfiguration

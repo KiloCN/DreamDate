@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172a0900-de39-46b0-9e61-9d1c05b7fcd4" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/config/DreamDateAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/sms_verification/SmsTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,43 +52,47 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kilo.cn/Desktop/Code/Java/DreamDate/DreamDate-model/src/test/java/cn/kilo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d848896d4b4ed96e7d56a4bd56e58b49&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "zulu-1.8",
+    "last_opened_file_path": "/Users/kilo.cn/Desktop/Code/Java/GitProject_tem/DreamDate/dreamdate-autoconfig/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "spring.configuration.checksum": "d848896d4b4ed96e7d56a4bd56e58b49",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dreamdate-autoconfig/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo" />
       <recent name="$PROJECT_DIR$/DreamDate-model/src/test/java/cn/kilo" />
       <recent name="$PROJECT_DIR$/DreamDate-dubbo/src/test/java/cn/kilo" />
       <recent name="$PROJECT_DIR$/DreamDate-commons/src/test/java/cn/kilo" />
-      <recent name="$PROJECT_DIR$/DreamDate-model" />
-      <recent name="$PROJECT_DIR$/DreamDate-dubbo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.kilo.dreamdate_model" />
       <recent name="cn.kilo.dreamdate_dubbo" />
       <recent name="cn.kilo.dreamdate_commons" />
+      <recent name="cn.kilo.dreamdate_autoconfig" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.kilo.dreamdate_autoconfig" />
     </key>
   </component>
@@ -91,36 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DreamDateAppServerApplicationTests.contextLoads">
-    <configuration name="DreamDateAppServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplication" />
-      <module name="dreamdate-app-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DreamDateAppServerApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dreamdate-autoconfig" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kilo.dreamdate_autoconfig.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_autoconfig" />
-      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_autoconfig.DreamDateAppServerApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DreamDateAppServerApplicationTests.testSMS">
     <configuration name="DreamDateAppServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dreamdate-app-server" />
       <extension name="coverage">
@@ -132,6 +115,38 @@
       <option name="PACKAGE_NAME" value="cn.kilo.spring_cloud_demo_001" />
       <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAppServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dreamdate-autoconfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_autoconfig.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_autoconfig" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_autoconfig.DreamDateAppServerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAppServerApplicationTests.testSMS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dreamdate-app-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
+      <option name="METHOD_NAME" value="testSMS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.testSMS" />
+        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.contextLoads (1)" />
         <item itemvalue="JUnit.DreamDateAppServerApplicationTests.contextLoads" />
         <item itemvalue="JUnit.DreamDateCommonsApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.contextLoads (1)" />
         <item itemvalue="Spring Boot.DreamDateAppServerApplication" />
-        <item itemvalue="应用程序.DreamDateAppServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +240,7 @@
       <workItem from="1680775536965" duration="74000" />
       <workItem from="1680775613588" duration="9000" />
       <workItem from="1680775639117" duration="884000" />
+      <workItem from="1680797781001" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Project Initiation">
       <created>1680775971805</created>
@@ -233,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680775971805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reload and Rename project structure.">
+      <created>1680798133591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680798133591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +264,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Initiation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Initiation" />
+    <MESSAGE value="Reload and Rename project structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reload and Rename project structure." />
   </component>
 </project>
