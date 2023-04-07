@@ -18,6 +18,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -51,7 +52,6 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>${joda-time.version}</version>
         </dependency>
 
         <!--jwt依赖-->
@@ -75,48 +75,39 @@
         </dependency>
 
 
-
-<!--        &lt;!&ndash; Dubbo Spring Cloud Starter&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-dubbo</artifactId>-->
-<!--            <version>2.2.5.RELEASE</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; Spring Cloud Nacos Service Discovery&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
-<!--            <version>2.2.5.RELEASE</version>-->
-<!--        </dependency>-->
-
-
-        <!-- nacos配置中心依赖支持
-    <dependency>
-        <groupId>com.alibaba.cloud</groupId>
-        <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-    </dependency>
-	-->
-        <!--RabbitMQ
+        <!-- Dubbo Spring Cloud Starter-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-dubbo</artifactId>
         </dependency>
-        -->
 
+        <!-- Spring Cloud Nacos Service Discovery-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
 
-<!--        Project Internal dependencies-->
         <dependency>
             <groupId>cn.kilo</groupId>
-            <artifactId>dreamdate-autoconfig</artifactId>
+            <artifactId>dreamdate-dubbo-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+
         </dependency>
 
         <dependency>
             <groupId>cn.kilo</groupId>
             <artifactId>dreamdate-commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+
+        </dependency>
+        <dependency>
+            <groupId>cn.kilo</groupId>
+            <artifactId>dreamdate-autoconfig</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>tanhua-app-server</finalName>
+    </build>
 </project>

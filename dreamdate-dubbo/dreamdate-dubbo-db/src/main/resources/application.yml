@@ -1,0 +1,32 @@
+server:
+  port: 18081
+spring:
+  application:
+    name: dreamate-dubbo-db
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://42.193.219.12:3307/dreamdate?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  cloud: #nacos configuration
+    nacos:
+      discovery:
+        server-addr: 139.9.76.182:8848
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: spring-cloud://localhost
+  scan:
+    base-packages: cn.kilo.dreamdate_dubbo_db.api
+  dubbo:
+    cloud:
+      subscribed-services:
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      tbl-prefix: tb_   #table prefix
+      id-type: auto  #id strategy auto: auto increment  input: manual input

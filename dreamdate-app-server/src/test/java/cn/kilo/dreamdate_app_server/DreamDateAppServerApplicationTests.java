@@ -2,6 +2,8 @@ package cn.kilo.dreamdate_app_server;
 
 import cn.kilo.dreamdate_app_server.service.UserService;
 import cn.kilo.dreamdate_autoconfig.sms_verification.SmsTemplate;
+import cn.kilo.dreamdate_dubbo_interface.api.UserApi;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,6 +21,9 @@ class DreamDateAppServerApplicationTests {
 
     @Autowired
     private SmsTemplate smsTemplate;
+
+    @DubboReference
+    public UserApi userApi;
 
     @Test
     void contextLoads() {
@@ -39,4 +44,9 @@ class DreamDateAppServerApplicationTests {
         userService.sendSms("1851231231");
     }
 
+
+    @Test
+    void UserApiTest(){
+        System.out.println(userApi.queryUserByMobile("13305577548").toString());
+    }
 }

@@ -16,12 +16,6 @@
         <module name="dreamdate-commons" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DreamDate-autoconfig" target="1.8" />
-      <module name="DreamDate-commons" target="1.8" />
-      <module name="DreamDate-dubbo" target="1.8" />
-      <module name="DreamDate-model" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
