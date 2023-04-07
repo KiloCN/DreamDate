@@ -1,6 +1,17 @@
+server:
+  port: 18080
 spring:
   application:
     name: dreamdate-app-server
+  redis:
+    password: wLfBobe!C_4o4azXKY84.MEwjtX
+    host: 42.193.219.12
+    port: 6379
+    database: 0
+  cloud: #nacos配置
+    nacos:
+      discovery:
+        server-addr: 139.9.76.182:8848
 dreamdate:
   sms:
     signName: DreamDate
@@ -8,3 +19,12 @@ dreamdate:
     template_code: SMS_11759122239
     access_key_id: BDAI4GKgdt9vZ53k3GZdtAD7
     access_key_secret: GYGBvXmILRoyw0niRSBuXBYeWQ30X0
+
+dubbo:    #dubbo配置
+  registry:
+    address: spring-cloud://localhost
+  consumer:
+    check: false
+logging:
+  level:
+    cn.kilo.dreamdate_app_server.controller: debug

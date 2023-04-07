@@ -4,7 +4,11 @@
     <file url="file://$PROJECT_DIR$/dreamdate-app-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dreamdate-autoconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dreamdate-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-mongo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dreamdate-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dreamdate-dubbo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dreamdate-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />

@@ -7,13 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dreamdate-model" />
-        <module name="dreamdate-dubbo" />
+        <module name="dreamdate-dubbo-mongo" />
         <module name="dreamdate-app-server" />
-        <module name="dreamdate-commons" />
+        <module name="dreamdate-dubbo-interface" />
         <module name="dreamdate-autoconfig" />
+        <module name="dreamdate-dubbo-db" />
+        <module name="dreamdate-model" />
+        <module name="dreamdate-commons" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DreamDate-autoconfig" target="1.8" />
+      <module name="DreamDate-commons" target="1.8" />
+      <module name="DreamDate-dubbo" target="1.8" />
+      <module name="DreamDate-model" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -22,6 +30,9 @@
       <module name="dreamdate-autoconfig" options="-parameters" />
       <module name="dreamdate-commons" options="-parameters" />
       <module name="dreamdate-dubbo" options="-parameters" />
+      <module name="dreamdate-dubbo-db" options="-parameters" />
+      <module name="dreamdate-dubbo-interface" options="-parameters" />
+      <module name="dreamdate-dubbo-mongo" options="-parameters" />
       <module name="dreamdate-model" options="-parameters" />
     </option>
   </component>
