@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/FDFSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/SmsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/UserApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/FastDFSTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/FaseApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/properties/RecognizeFaceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/RecognizeFaceTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/config/DreamDateAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/config/DreamDateAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/sms_verification/SmsTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/SmsTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/SmsTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/SmsTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/test/java/cn/kilo/dreamdate_autoconfig/DreamDateAppServerApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,11 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.kilo.dreamdate_autoconfig.template" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -85,8 +88,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FDFSTest.testFastDFSTemplate">
-    <configuration name="DreamDateAppServerApplicationTests.UserApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FaseApiTest.testFaceApi">
+    <configuration name="RecognizeFace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.RecognizeFace" />
       <module name="dreamdate-app-server" />
       <extension name="coverage">
         <pattern>
@@ -94,15 +98,40 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
-      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
-      <option name="METHOD_NAME" value="UserApiTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.Sample" />
+      <module name="dreamdate-app-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAppServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dreamdate-autoconfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_autoconfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_autoconfig" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_autoconfig.DreamDateAppServerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DreamDateAppServerApplicationTests.testFDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FaseApiTest.testFaceApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dreamdate-app-server" />
       <extension name="coverage">
         <pattern>
@@ -111,40 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
-      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
-      <option name="METHOD_NAME" value="testFDFS" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DreamDateAppServerApplicationTests.userApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dreamdate-app-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
-      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
-      <option name="METHOD_NAME" value="userApiTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FDFSTest.testFastDFSTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dreamdate-app-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
-      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.FDFSTest" />
-      <option name="METHOD_NAME" value="testFastDFSTemplate" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.FaseApiTest" />
+      <option name="METHOD_NAME" value="testFaceApi" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FaseApiTest.testFaceApi" />
+        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.contextLoads" />
+        <item itemvalue="应用程序.RecognizeFace" />
+        <item itemvalue="应用程序.Sample" />
         <item itemvalue="Spring Boot.DreamDateAppServerApplication" />
-        <item itemvalue="JUnit.FDFSTest.testFastDFSTemplate" />
-        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.testFDFS" />
-        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.userApiTest" />
-        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.UserApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680872490709</updated>
       <workItem from="1680872492456" duration="14964000" />
-      <workItem from="1680930626212" duration="6519000" />
+      <workItem from="1680930626212" duration="13373000" />
     </task>
     <task id="LOCAL-00001" summary="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database">
       <created>1680885522250</created>
@@ -232,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680943243494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementation FastDFSTemplate.java and finish test">
+      <created>1680944614468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680944614468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +247,7 @@
     <MESSAGE value="Implemented User login function in follow position:&#10;1. LoginController.java&#10;2. UserService.java, UserServiceImpl.java&#10;3. UserApi.java, UserApiImpl.java" />
     <MESSAGE value="UserLogin is optimized to realize the automatic filling of created and updated fields by MyMetaObjectHandler.java through MyBatis-Plus." />
     <MESSAGE value="Implementation test of FastDFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation test of FastDFS" />
+    <MESSAGE value="Implementation FastDFSTemplate.java and finish test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation FastDFSTemplate.java and finish test" />
   </component>
 </project>

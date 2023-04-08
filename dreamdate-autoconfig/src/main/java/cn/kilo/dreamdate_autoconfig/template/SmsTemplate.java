@@ -124,11 +124,17 @@ public class SmsTemplate {
     }
     public void send(String phoneNumber, String code){
         /**
-         * My Alibaba Could SMS verification balance has been exhausted. First simulate the SMS verification process.
+         * My Alibaba Coud SMS verification balance has been exhausted. First simulate the SMS verification process.
          */
 
         log.info(properties.toString());
         log.info("<Phone Number>:<"+phoneNumber+"> -- The verification code is: "+code+", valid within 5 minutes!");
+
+        /**
+         * End of simulation
+         * If you want to use it, please open the following code, And replace the accesskey with your own.
+         * @link dreamdate-app-server/src/main/resources/application.yml
+         */
 
 //        SmsTemplate sendSmsDemo = new SmsTemplate();
 //
