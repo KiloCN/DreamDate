@@ -63,8 +63,6 @@ public class UserServiceImpl implements UserService {
                 isNew = 1;
                 User newUser = new User();
                 newUser.setMobile(phoneNum);
-                newUser.setCreated(new Date());
-                newUser.setUpdated(new Date());
                 newUser.setPassword(DigestUtils.md5Hex("123456"));
                 Long userId = userApi.saveUser(newUser);
             }else {
