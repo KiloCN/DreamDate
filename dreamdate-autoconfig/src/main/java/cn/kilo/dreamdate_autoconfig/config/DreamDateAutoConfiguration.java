@@ -1,7 +1,10 @@
 package cn.kilo.dreamdate_autoconfig.config;
 
 import cn.kilo.dreamdate_autoconfig.properties.SmsProperties;
-import cn.kilo.dreamdate_autoconfig.sms_verification.SmsTemplate;
+import cn.kilo.dreamdate_autoconfig.template.FastDFSTemplate;
+import cn.kilo.dreamdate_autoconfig.template.SmsTemplate;
+import com.github.tobato.fastdfs.domain.conn.FdfsWebServer;
+import com.github.tobato.fastdfs.service.FastFileStorageClient;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
@@ -11,5 +14,10 @@ public class DreamDateAutoConfiguration {
     @Bean
     public SmsTemplate smsTemplate(SmsProperties properties){
         return new SmsTemplate(properties);
+    }
+
+    @Bean
+    public FastDFSTemplate fastDFSTemplate(FastFileStorageClient fastFileStorageClient, FdfsWebServer fdfsWebServer){
+        return new FastDFSTemplate(fastFileStorageClient, fdfsWebServer);
     }
 }

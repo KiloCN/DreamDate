@@ -1,4 +1,4 @@
-package cn.kilo.dreamdate_autoconfig.sms_verification;
+package cn.kilo.dreamdate_autoconfig.template;
 import cn.kilo.dreamdate_autoconfig.properties.SmsProperties;
 import com.aliyuncs.CommonRequest;
 import com.aliyuncs.CommonResponse;

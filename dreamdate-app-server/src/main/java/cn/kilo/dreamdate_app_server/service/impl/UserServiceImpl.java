@@ -2,7 +2,7 @@ package cn.kilo.dreamdate_app_server.service.impl;
 
 import cn.kilo.dreamdate_app_server.service.UserService;
 
-import cn.kilo.dreamdate_autoconfig.sms_verification.SmsTemplate;
+import cn.kilo.dreamdate_autoconfig.template.SmsTemplate;
 import cn.kilo.dreamdate_commons.utils.JwtUtils;
 import cn.kilo.dreamdate_dubbo_interface.api.UserApi;
 import cn.kilo.dreamdate_model.pojo.User;
@@ -15,7 +15,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 

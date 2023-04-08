@@ -1,17 +1,13 @@
 package cn.kilo.dreamdate_app_server;
 
-import cn.kilo.dreamdate_app_server.service.UserService;
-import cn.kilo.dreamdate_autoconfig.template.SmsTemplate;
-import cn.kilo.dreamdate_dubbo_interface.api.UserApi;
+import cn.kilo.dreamdate_autoconfig.template.FastDFSTemplate;
 import com.github.tobato.fastdfs.domain.conn.FdfsWebServer;
 import com.github.tobato.fastdfs.domain.fdfs.StorePath;
 import com.github.tobato.fastdfs.service.FastFileStorageClient;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.dubbo.config.annotation.DubboReference;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,51 +15,15 @@ import java.io.FileNotFoundException;
 
 @SpringBootTest(classes = DreamDateAppServerApplication.class)
 @Slf4j
-class DreamDateAppServerApplicationTests {
-
-    @Autowired
-    private RedisTemplate<String, String> redisTemplate;
-    @Autowired
-    private UserService userService;
-
-    @Autowired
-    private SmsTemplate smsTemplate;
-
-    @DubboReference
-    private UserApi userApi;
-
+public class FDFSTest {
     @Autowired
     private FastFileStorageClient fastFileStorageClient;
 
     @Autowired
     private FdfsWebServer fdfsWebServer;
 
-
-    @Test
-    void contextLoads() {
-        System.out.println("Hello");
-    }
-
-
-    @Test
-    void testSMS(){
-        smsTemplate.send("1851231231","2050");
-    }
-
-
-    @Test
-    void testRedis(){
-//        redisTemplate.opsForValue().set("lll","123", Duration.ofMinutes(5));
-//        System.out.println(redisTemplate.opsForValue().get("lll"));
-        userService.sendSms("1851231231");
-    }
-
-
-    @Test
-    void userApiTest(){
-        System.out.println(userApi.queryUserByMobile("13305577548").toString());
-    }
-
+    @Autowired
+    private FastDFSTemplate fastDFSTemplate;
 
     @Test
     void testFDFS() throws FileNotFoundException {
@@ -77,6 +37,12 @@ class DreamDateAppServerApplicationTests {
         //3. Get the file URL
         String url = fdfsWebServer.getWebServerUrl() + storePath.getFullPath();
         log.info(url);
+    }
+
+
+    @Test
+    void testFastDFSTemplate() throws Exception {
+        log.info(fastDFSTemplate.uploadFile("/Users/kilo.cn/Downloads/qrcode-Hello world.png","png"));
     }
 
 }
