@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="UserLogin is optimized to realize the automatic filling of created and updated fields by MyMetaObjectHandler.java through MyBatis-Plus.">
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/handler/MyMetaObjectHandler.java" afterDir="false" />
+    <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DreamDateAppServerApplication">
+  <component name="RunManager" selected="JUnit.DreamDateAppServerApplicationTests.testFDFS">
     <configuration name="DreamDateAppServerApplicationTests.UserApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dreamdate-app-server" />
       <extension name="coverage">
@@ -89,6 +89,22 @@
       <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
       <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
       <option name="METHOD_NAME" value="UserApiTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAppServerApplicationTests.testFDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dreamdate-app-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
+      <option name="METHOD_NAME" value="testFDFS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.testFDFS" />
         <item itemvalue="Spring Boot.DreamDateAppServerApplication" />
         <item itemvalue="JUnit.DreamDateAppServerApplicationTests.userApiTest" />
         <item itemvalue="JUnit.DreamDateAppServerApplicationTests.UserApiTest" />
@@ -171,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680872490709</updated>
       <workItem from="1680872492456" duration="14964000" />
-      <workItem from="1680930626212" duration="1081000" />
+      <workItem from="1680930626212" duration="5120000" />
     </task>
     <task id="LOCAL-00001" summary="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database">
       <created>1680885522250</created>
@@ -187,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680930409709</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UserLogin is optimized to realize the automatic filling of created and updated fields by MyMetaObjectHandler.java through MyBatis-Plus.">
+      <created>1680931796900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680931796900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

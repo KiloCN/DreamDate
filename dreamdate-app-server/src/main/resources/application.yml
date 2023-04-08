@@ -27,6 +27,16 @@ dubbo:    #dubbo配置
     check: false
 #  cloud:
 #    subscribed-services: dreamdate-dubbo-db
+
+fdfs:
+  so-timeout: 3000
+  connect-timeout: 600
+  thumb-image:
+    height: 200
+    width: 200
+  tracker-list: 139.9.76.182:22122
+  web-server-url: http://139.9.76.182:8888/
+
 logging:
   level:
     cn.kilo.dreamdate_app_server.controller: debug
