@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/DubboDBApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/UserApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/test/java/DreamDateDubboDBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/pojo/BasePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-commons/src/main/java/cn/kilo/dreamdate_commons/utils/JwtUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-mongo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/UserApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/UserApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/UserApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +59,7 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -79,7 +67,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -96,7 +84,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DreamDateAppServerApplicationTests.UserApiTest">
+  <component name="RunManager" selected="JUnit.DreamDateAppServerApplicationTests.userApiTest">
     <configuration name="DreamDateAppServerApplicationTests.UserApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dreamdate-app-server" />
       <extension name="coverage">
@@ -108,6 +96,22 @@
       <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
       <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
       <option name="METHOD_NAME" value="UserApiTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DreamDateAppServerApplicationTests.userApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dreamdate-app-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kilo.dreamdate_app_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kilo.dreamdate_app_server" />
+      <option name="MAIN_CLASS_NAME" value="cn.kilo.dreamdate_app_server.DreamDateAppServerApplicationTests" />
+      <option name="METHOD_NAME" value="userApiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,9 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DreamDateAppServerApplication" />
+        <item itemvalue="JUnit.DreamDateAppServerApplicationTests.userApiTest" />
         <item itemvalue="JUnit.DreamDateAppServerApplicationTests.UserApiTest" />
         <item itemvalue="JUnit.DreamDateDubboDBTest.testUserApi" />
-        <item itemvalue="Spring Boot.DreamDateAppServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +177,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680872490709</updated>
-      <workItem from="1680872492456" duration="9099000" />
+      <workItem from="1680872492456" duration="14437000" />
     </task>
+    <task id="LOCAL-00001" summary="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database">
+      <created>1680885522250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680885522250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database" />
   </component>
 </project>

@@ -25,6 +25,8 @@ dubbo:    #dubbo配置
     address: spring-cloud://localhost
   consumer:
     check: false
+#  cloud:
+#    subscribed-services: dreamdate-dubbo-db
 logging:
   level:
     cn.kilo.dreamdate_app_server.controller: debug

@@ -46,7 +46,8 @@ class DreamDateAppServerApplicationTests {
 
 
     @Test
-    void UserApiTest(){
+    void userApiTest(){
         System.out.println(userApi.queryUserByMobile("13305577548").toString());
     }
+
 }

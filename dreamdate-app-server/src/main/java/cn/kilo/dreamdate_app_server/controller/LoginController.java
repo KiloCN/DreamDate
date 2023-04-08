@@ -31,4 +31,18 @@ public class LoginController {
         userService.sendSms(phoneNum);
         return ResponseEntity.ok(null);
     }
+
+
+    @PostMapping("/loginVerification")
+    public ResponseEntity loginVerification(@RequestBody Map map){
+        log.debug("The phone number is "+map.get("phone"));
+        String phoneNum = (String) map.get("phone");
+        String code = (String) map.get("verificationCode");
+
+
+        Map resultMap = userService.loginVerification(phoneNum,code);
+        log.debug("The result is "+resultMap);
+
+        return ResponseEntity.ok(resultMap);
+    }
 }

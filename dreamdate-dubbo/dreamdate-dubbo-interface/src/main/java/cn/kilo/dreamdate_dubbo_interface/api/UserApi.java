@@ -4,4 +4,6 @@ import cn.kilo.dreamdate_model.pojo.User;
 
 public interface UserApi {
     User queryUserByMobile(String mobile);
+
+    Long saveUser(User newUser);
 }

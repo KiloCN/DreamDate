@@ -19,4 +19,10 @@ public class UserApiImpl implements UserApi {
         queryWrapper.eq("mobile", mobile);
         return userMapper.selectOne(queryWrapper);
     }
+
+    @Override
+    public Long saveUser(User newUser) {
+        userMapper.insert(newUser);
+        return newUser.getId();
+    }
 }
