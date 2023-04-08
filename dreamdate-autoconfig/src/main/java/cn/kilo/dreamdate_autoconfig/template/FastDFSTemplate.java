@@ -25,8 +25,8 @@ public class FastDFSTemplate {
      * @return
      * @throws Exception
      */
-    public String uploadFile(String filePath, String suffix) throws Exception {
-        StorePath storePath = fastFileStorageClient.uploadFile(new FileInputStream(new File(filePath)), new File(filePath).length(), suffix, null);
+    public String uploadFile(File file, String suffix) throws Exception {
+        StorePath storePath = fastFileStorageClient.uploadFile(new FileInputStream(file), file.length(), suffix, null);
         return fdfsWebServer.getWebServerUrl() + storePath.getFullPath();
     }
 }

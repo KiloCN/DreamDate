@@ -42,7 +42,7 @@ public class FDFSTest {
 
     @Test
     void testFastDFSTemplate() throws Exception {
-        log.info(fastDFSTemplate.uploadFile("/Users/kilo.cn/Downloads/qrcode-Hello world.png","png"));
+        log.info(fastDFSTemplate.uploadFile(new File("/Users/kilo.cn/Downloads/qrcode-Hello world.png"),"png"));
     }
 
 }
