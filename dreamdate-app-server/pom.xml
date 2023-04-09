@@ -111,6 +111,18 @@
             <version>20160810</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>cn.kilo</groupId>
+            <artifactId>dreamdate-dubbo-db</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>cn.kilo</groupId>
+            <artifactId>dreamdate-dubbo-db</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
