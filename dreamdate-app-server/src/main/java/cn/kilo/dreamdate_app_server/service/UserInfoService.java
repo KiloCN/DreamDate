@@ -6,7 +6,7 @@ public interface UserInfoService {
 
     void save(UserInfo userInfo);
 
-    void updateHeadImage(MultipartFile headImage, Integer id);
+    void updateHeadImage(MultipartFile headImage, Long id);
 
     UserInfo findById(Long id);
 

@@ -2,6 +2,7 @@ package cn.kilo.dreamdate_app_server.controller;
 
 import cn.kilo.dreamdate_app_server.service.UserInfoService;
 import cn.kilo.dreamdate_commons.utils.JwtUtils;
+import cn.kilo.dreamdate_commons.utils.UserHolder;
 import cn.kilo.dreamdate_model.pojo.UserInfo;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
@@ -27,14 +28,7 @@ public class UserInfoControler {
     public ResponseEntity users(Long userID,@RequestHeader("Authorization") String token) {
         //1. Get userID from token
         if(userID == null) {
-            Claims claims = null;
-            try {
-                claims = JwtUtils.getClaims(token);
-            } catch (Exception e) {
-                log.info(e.getMessage());
-                return ResponseEntity.status(401).body(null);
-            }
-            Integer id = (Integer) claims.get("id");
+            Long id = UserHolder.getUserId();
             userID = Long.valueOf(id);
         }
         UserInfo userInfo = userInfoService.findById(userID);
@@ -50,17 +44,9 @@ public class UserInfoControler {
     @PutMapping
     public ResponseEntity updateUserInfo(@RequestBody UserInfo userInfo,@RequestHeader("Authorization") String token) {
         //1. Get userID from token
-        Claims claims = null;
-        try {
-            claims = JwtUtils.getClaims(token);
-        } catch (Exception e) {
-            log.info("token is invalid: " + e.getMessage());
-            return ResponseEntity.status(401).body(null);
-        }
-        //2. Check userID weither is null
-        Integer id = (Integer) claims.get("id");
+        Long id = UserHolder.getUserId();
         userInfo.setId(Long.valueOf(id));
-        //3. Update user info
+        //2. Update user info
         userInfoService.update(userInfo);
         return ResponseEntity.ok(null);
     }

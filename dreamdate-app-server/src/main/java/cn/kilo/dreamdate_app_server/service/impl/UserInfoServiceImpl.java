@@ -32,7 +32,7 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     @Override
-    public void updateHeadImage(MultipartFile headImage, Integer id) {
+    public void updateHeadImage(MultipartFile headImage, Long id) {
         //1. upload image to fastdfs
         String path = null;
         try {

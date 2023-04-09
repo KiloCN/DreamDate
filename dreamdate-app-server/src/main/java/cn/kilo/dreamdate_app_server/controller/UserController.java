@@ -1,6 +1,7 @@
 package cn.kilo.dreamdate_app_server.controller;
 
 import cn.kilo.dreamdate_commons.utils.JwtUtils;
+import cn.kilo.dreamdate_commons.utils.UserHolder;
 import cn.kilo.dreamdate_model.pojo.UserInfo;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
@@ -37,13 +38,7 @@ public class UserController {
                                        @RequestHeader("Authorization") String token) {
 
         //1. set id to userInfo
-        Claims claims = null;
-        try {
-            claims = JwtUtils.getClaims(token);
-        } catch (Exception e) {
-            log.info(e.getMessage());
-        }
-        Integer id = (Integer) claims.get("id");
+        Long id = UserHolder.getUserId();
         userInfo.setId(Long.valueOf(id));
         //2. save userInfo
         userInfoService.save(userInfo);
@@ -56,13 +51,7 @@ public class UserController {
     public ResponseEntity head(MultipartFile headPhoto, @RequestHeader("Authorization") String token) throws IOException {
 
         //1. set id to userInfo
-        Claims claims = null;
-        try {
-            claims = JwtUtils.getClaims(token);
-        } catch (Exception e) {
-            log.info(e.getMessage());
-        }
-        Integer id = (Integer) claims.get("id");
+        Long id = UserHolder.getUserId();
         //2. update userInfo
         log.debug("headImage: {}", headPhoto);
         userInfoService.updateHeadImage(headPhoto, id);

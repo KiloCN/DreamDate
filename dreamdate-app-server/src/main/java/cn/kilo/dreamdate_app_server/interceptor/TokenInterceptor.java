@@ -1,6 +1,9 @@
 package cn.kilo.dreamdate_app_server.interceptor;
 
 import cn.kilo.dreamdate_commons.utils.JwtUtils;
+import cn.kilo.dreamdate_commons.utils.UserHolder;
+import cn.kilo.dreamdate_model.pojo.User;
+import io.jsonwebtoken.Claims;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
@@ -22,7 +25,12 @@ public class TokenInterceptor implements HandlerInterceptor {
             return false;
         }
 
-        //4. if valid, release request
+        //4. if valid, cache user info in ThreadLocal, then release request
+        Claims claims = JwtUtils.getClaims(token);
+        User user = new User();
+        user.setId(Long.valueOf((Integer) claims.get("id")));
+        user.setMobile((String) claims.get("mobile"));
+        UserHolder.setUserThreadLocal(user);
         return true;
     }
 }
