@@ -1,11 +1,13 @@
 package cn.kilo.dreamdate_app_server.service.impl;
 
+import cn.kilo.dreamdate_app_server.exception.BusinessException;
 import cn.kilo.dreamdate_app_server.service.UserService;
 
 import cn.kilo.dreamdate_autoconfig.template.SmsTemplate;
 import cn.kilo.dreamdate_commons.utils.JwtUtils;
 import cn.kilo.dreamdate_dubbo_interface.api.UserApi;
 import cn.kilo.dreamdate_model.pojo.User;
+import cn.kilo.dreamdate_model.vo.ErrorResult;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -54,7 +56,8 @@ public class UserServiceImpl implements UserService {
         int isNew = 0;
         if (!code.equals(redisCode)){
             log.debug("Login failed:SMS code is wrong");
-            throw new RuntimeException("Login failed:SMS code is wrong");
+            // SMS code is wrong
+            throw new BusinessException(ErrorResult.loginError());
         }else {
             log.debug("Login success");
             redisTemplate.delete("CHECK_CODE_"+phoneNum);

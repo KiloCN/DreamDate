@@ -1,6 +1,8 @@
 package cn.kilo.dreamdate_app_server.controller;
 
+import cn.kilo.dreamdate_app_server.exception.BusinessException;
 import cn.kilo.dreamdate_app_server.service.UserService;
+import cn.kilo.dreamdate_model.vo.ErrorResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -35,21 +37,19 @@ public class LoginController {
 
     @PostMapping("/loginVerification")
     public ResponseEntity loginVerification(@RequestBody Map map){
-        log.debug("The phone number is "+map.get("phone"));
-        String phoneNum = (String) map.get("phone");
-        String code = (String) map.get("verificationCode");
-
-
         Map resultMap = null;
         try {
+            String phoneNum = (String) map.get("phone");
+            String code = (String) map.get("verificationCode");
             resultMap = userService.loginVerification(phoneNum,code);
+        } catch (BusinessException be) {
+            ErrorResult errorResult = be.getErrorResult();
+            return  ResponseEntity.status(500).body(errorResult);
         } catch (Exception e) {
-            log.info("{} SMS verification code is incorrect",phoneNum);
-//            return ResponseEntity.status(401).body(null);
-            return ResponseEntity.ok(resultMap);
+            log.info("Login failed:{}",e.getMessage());
+            return ResponseEntity.status(500).body(ErrorResult.error());
         }
         log.debug("The result is "+resultMap);
-
         return ResponseEntity.ok(resultMap);
     }
 }

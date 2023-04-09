@@ -1,11 +1,13 @@
 package cn.kilo.dreamdate_app_server.service.impl;
 
+import cn.kilo.dreamdate_app_server.exception.BusinessException;
 import cn.kilo.dreamdate_app_server.service.UserInfoService;
 import cn.kilo.dreamdate_autoconfig.template.FastDFSTemplate;
 import cn.kilo.dreamdate_autoconfig.template.RecognizeFaceTemplate;
 import cn.kilo.dreamdate_commons.utils.FileUtils;
 import cn.kilo.dreamdate_dubbo_interface.api.UserInfoApi;
 import cn.kilo.dreamdate_model.pojo.UserInfo;
+import cn.kilo.dreamdate_model.vo.ErrorResult;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +46,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         try {
             if(!recognizeFaceTemplate.faceRecognition(path))
             {
-                throw new RuntimeException("Image is not valid");
+                throw new BusinessException(ErrorResult.faceError());
             }
 
         } catch (Exception e) {
