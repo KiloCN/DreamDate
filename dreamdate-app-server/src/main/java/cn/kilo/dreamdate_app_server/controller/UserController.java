@@ -41,7 +41,12 @@ public class UserController {
             return ResponseEntity.status(401).body(null);
         }
         //2、set id to userInfo
-        Claims claims = JwtUtils.getClaims(token);
+        Claims claims = null;
+        try {
+            claims = JwtUtils.getClaims(token);
+        } catch (Exception e) {
+            log.info(e.getMessage());
+        }
         Integer id = (Integer) claims.get("id");
         userInfo.setId(Long.valueOf(id));
         //3、save userInfo
@@ -59,7 +64,12 @@ public class UserController {
             return ResponseEntity.status(401).body(null);
         }
         //2、set id to userInfo
-        Claims claims = JwtUtils.getClaims(token);
+        Claims claims = null;
+        try {
+            claims = JwtUtils.getClaims(token);
+        } catch (Exception e) {
+            log.info(e.getMessage());
+        }
         Integer id = (Integer) claims.get("id");
         //3、update userInfo
         log.debug("headImage: {}", headPhoto);

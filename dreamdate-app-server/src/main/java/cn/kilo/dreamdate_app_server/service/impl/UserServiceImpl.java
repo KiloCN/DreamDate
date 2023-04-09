@@ -53,8 +53,8 @@ public class UserServiceImpl implements UserService {
         String redisCode = redisTemplate.opsForValue().get("CHECK_CODE_"+phoneNum);
         int isNew = 0;
         if (!code.equals(redisCode)){
-            log.debug("Login failed");
-            throw new RuntimeException("Login failed");
+            log.debug("Login failed:SMS code is wrong");
+            throw new RuntimeException("Login failed:SMS code is wrong");
         }else {
             log.debug("Login success");
             redisTemplate.delete("CHECK_CODE_"+phoneNum);

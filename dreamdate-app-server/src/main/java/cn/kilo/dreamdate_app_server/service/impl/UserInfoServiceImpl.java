@@ -57,4 +57,14 @@ public class UserInfoServiceImpl implements UserInfoService {
         userInfoApi.updateUserInfo(userInfo);
 
     }
+
+    @Override
+    public UserInfo findById(Long id) {
+        return userInfoApi.selectById(id);
+    }
+
+    @Override
+    public void update(UserInfo userInfo) {
+        userInfoApi.updateUserInfo(userInfo);
+    }
 }

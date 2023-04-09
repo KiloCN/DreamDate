@@ -40,7 +40,12 @@ public class LoginController {
         String code = (String) map.get("verificationCode");
 
 
-        Map resultMap = userService.loginVerification(phoneNum,code);
+        Map resultMap = null;
+        try {
+            resultMap = userService.loginVerification(phoneNum,code);
+        } catch (Exception e) {
+            return ResponseEntity.status(401).body(null);
+        }
         log.debug("The result is "+resultMap);
 
         return ResponseEntity.ok(resultMap);

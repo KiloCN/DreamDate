@@ -7,4 +7,7 @@ public interface  UserInfoApi {
     public void saveUserInfo(UserInfo userInfo);
 
     public void updateUserInfo(UserInfo userInfo);
+
+
+    UserInfo selectById(Long id);
 }

@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="Implement Upload User Head Photo function">
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/UserInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-commons/src/main/java/cn/kilo/dreamdate_commons/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/UserInfoApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/UserInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/UserInfoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/pojo/UserInfo.java" afterDir="false" />
+    <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/UserInfoControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/FDFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/FDFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/FastDFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/FastDFSTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/UserInfoApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/UserInfoApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/UserInfoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/UserInfoApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +201,7 @@
       <updated>1680872490709</updated>
       <workItem from="1680872492456" duration="14964000" />
       <workItem from="1680930626212" duration="14425000" />
-      <workItem from="1680969361158" duration="5854000" />
+      <workItem from="1680969361158" duration="8203000" />
     </task>
     <task id="LOCAL-00001" summary="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database">
       <created>1680885522250</created>
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680953214548</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement Upload User Head Photo function">
+      <created>1680976102708</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680976102708</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

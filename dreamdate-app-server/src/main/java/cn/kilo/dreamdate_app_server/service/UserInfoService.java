@@ -4,7 +4,11 @@ import org.springframework.web.multipart.MultipartFile;
 
 public interface UserInfoService {
 
-    public void save(UserInfo userInfo);
+    void save(UserInfo userInfo);
 
     void updateHeadImage(MultipartFile headImage, Integer id);
+
+    UserInfo findById(Long id);
+
+    void update(UserInfo userInfo);
 }
