@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/vo/ErrorResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/exception/ExceptionAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/FastDFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-autoconfig/src/main/java/cn/kilo/dreamdate_autoconfig/template/FastDFSTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +197,7 @@
       <workItem from="1680872492456" duration="14964000" />
       <workItem from="1680930626212" duration="14425000" />
       <workItem from="1680969361158" duration="11156000" />
-      <workItem from="1681027270969" duration="4616000" />
+      <workItem from="1681027270969" duration="5862000" />
     </task>
     <task id="LOCAL-00001" summary="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database">
       <created>1680885522250</created>
@@ -285,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681029593730</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="General exception handling">
+      <created>1681041581898</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681041581898</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +309,7 @@
     <MESSAGE value="Introduce interceptor to optimize user authentication" />
     <MESSAGE value="Optimize token information acquisition through ThreadLocal" />
     <MESSAGE value="release ThreadLocal" />
-    <option name="LAST_COMMIT_MESSAGE" value="release ThreadLocal" />
+    <MESSAGE value="General exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="General exception handling" />
   </component>
 </project>

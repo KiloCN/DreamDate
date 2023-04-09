@@ -20,7 +20,7 @@ public class FastDFSTemplate {
 
     /**
      * Upload file to FastDFS
-     * @param filePath File path
+     * @param file File
      * @param suffix File suffix(jpg, png, etc.)
      * @return
      * @throws Exception

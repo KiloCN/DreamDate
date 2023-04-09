@@ -38,17 +38,9 @@ public class LoginController {
     @PostMapping("/loginVerification")
     public ResponseEntity loginVerification(@RequestBody Map map){
         Map resultMap = null;
-        try {
-            String phoneNum = (String) map.get("phone");
-            String code = (String) map.get("verificationCode");
-            resultMap = userService.loginVerification(phoneNum,code);
-        } catch (BusinessException be) {
-            ErrorResult errorResult = be.getErrorResult();
-            return  ResponseEntity.status(500).body(errorResult);
-        } catch (Exception e) {
-            log.info("Login failed:{}",e.getMessage());
-            return ResponseEntity.status(500).body(ErrorResult.error());
-        }
+        String phoneNum = (String) map.get("phone");
+        String code = (String) map.get("verificationCode");
+        resultMap = userService.loginVerification(phoneNum,code);
         log.debug("The result is "+resultMap);
         return ResponseEntity.ok(resultMap);
     }
