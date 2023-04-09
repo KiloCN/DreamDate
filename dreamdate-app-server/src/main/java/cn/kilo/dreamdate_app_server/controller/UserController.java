@@ -35,12 +35,8 @@ public class UserController {
     @PostMapping("/loginReginfo")
     public ResponseEntity loginReginfo(@RequestBody UserInfo userInfo,
                                        @RequestHeader("Authorization") String token) {
-        //1、Check token weither valid
-        Boolean isTokenValid = JwtUtils.verifyToken(token);
-        if(!isTokenValid){
-            return ResponseEntity.status(401).body(null);
-        }
-        //2、set id to userInfo
+
+        //1. set id to userInfo
         Claims claims = null;
         try {
             claims = JwtUtils.getClaims(token);
@@ -49,7 +45,7 @@ public class UserController {
         }
         Integer id = (Integer) claims.get("id");
         userInfo.setId(Long.valueOf(id));
-        //3、save userInfo
+        //2. save userInfo
         userInfoService.save(userInfo);
         return ResponseEntity.ok(null);
     }
@@ -58,12 +54,8 @@ public class UserController {
 
     @PostMapping("/loginReginfo/head")
     public ResponseEntity head(MultipartFile headPhoto, @RequestHeader("Authorization") String token) throws IOException {
-        //1、Check token weither valid
-        Boolean isTokenValid = JwtUtils.verifyToken(token);
-        if(!isTokenValid){
-            return ResponseEntity.status(401).body(null);
-        }
-        //2、set id to userInfo
+
+        //1. set id to userInfo
         Claims claims = null;
         try {
             claims = JwtUtils.getClaims(token);
@@ -71,7 +63,7 @@ public class UserController {
             log.info(e.getMessage());
         }
         Integer id = (Integer) claims.get("id");
-        //3、update userInfo
+        //2. update userInfo
         log.debug("headImage: {}", headPhoto);
         userInfoService.updateHeadImage(headPhoto, id);
         return ResponseEntity.ok(null);

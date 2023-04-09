@@ -44,7 +44,9 @@ public class LoginController {
         try {
             resultMap = userService.loginVerification(phoneNum,code);
         } catch (Exception e) {
-            return ResponseEntity.status(401).body(null);
+            log.info("{} SMS verification code is incorrect",phoneNum);
+//            return ResponseEntity.status(401).body(null);
+            return ResponseEntity.ok(resultMap);
         }
         log.debug("The result is "+resultMap);
 

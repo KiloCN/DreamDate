@@ -25,6 +25,7 @@ public class UserInfoControler {
      */
     @GetMapping
     public ResponseEntity users(Long userID,@RequestHeader("Authorization") String token) {
+        //1. Get userID from token
         if(userID == null) {
             Claims claims = null;
             try {
@@ -48,7 +49,7 @@ public class UserInfoControler {
      */
     @PutMapping
     public ResponseEntity updateUserInfo(@RequestBody UserInfo userInfo,@RequestHeader("Authorization") String token) {
-        //1. Check token weither valid
+        //1. Get userID from token
         Claims claims = null;
         try {
             claims = JwtUtils.getClaims(token);
