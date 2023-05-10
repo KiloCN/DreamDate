@@ -5,9 +5,9 @@ spring:
     name: dreamate-dubbo-db
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://42.193.219.12:3307/dreamdate?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://42.193.219.12:3306/dreamdate?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: 123456
+    password: wLfBobe!C_4o4azXKY84.MEwjtX
   cloud: #nacos configuration
     nacos:
       discovery:

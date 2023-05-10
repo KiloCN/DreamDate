@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="Implement all the functions related to user settings, including friend question settings, notification settings, blacklist settings">
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/controller/SettingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/SettingsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-app-server/src/main/java/cn/kilo/dreamdate_app_server/service/impl/SettingsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/BlackListApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/QuestionApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/api/impl/SettingsApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/BlackListMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/QuestionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/SettingsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/BlackListApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/QuestionApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-interface/src/main/java/cn/kilo/dreamdate_dubbo_interface/api/SettingsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/pojo/BlackList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/pojo/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/pojo/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/vo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dreamdate-model/src/main/java/cn/kilo/dreamdate_model/vo/SettingsVo.java" afterDir="false" />
+    <list default="true" id="bf9f2aed-1944-4449-b436-2414571f85e5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-app-server/src/test/java/cn/kilo/dreamdate_app_server/DreamDateAppServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/DubboDBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/DubboDBApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/java/cn/kilo/dreamdate_dubbo_db/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/test/java/DreamDateDubboDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/test/java/DreamDateDubboDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dreamdate-dubbo/dreamdate-dubbo-db/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +44,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "b7967d139c3dea36cf2cf5614977b767",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b7967d139c3dea36cf2cf5614977b767&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -226,7 +204,11 @@
       <workItem from="1680930626212" duration="14425000" />
       <workItem from="1680969361158" duration="11156000" />
       <workItem from="1681027270969" duration="6084000" />
-      <workItem from="1681046479856" duration="5790000" />
+      <workItem from="1681046479856" duration="7165000" />
+      <workItem from="1683713688819" duration="21000" />
+      <workItem from="1683726002675" duration="4189000" />
+      <workItem from="1683732955170" duration="604000" />
+      <workItem from="1683733576915" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="1. Solve the dependence version conflict problem&#10;2. Add Pojo Mapper Server for User entity&#10;3. Connect the mysql Database">
       <created>1680885522250</created>
@@ -326,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681042820972</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implement all the functions related to user settings, including friend question settings, notification settings, blacklist settings">
+      <created>1681053433433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681053433433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
